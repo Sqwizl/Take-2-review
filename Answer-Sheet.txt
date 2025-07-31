@@ -1,0 +1,212 @@
+Review 2: Understanding HTML and CSS
+
+Student Details
+===============
+Name: Stacey Eldershaw
+Date: 31st July 2025 
+
+Time Management
+===============
+Duration: 1 hour  
+Recommended time allocation:
+- Theory Section (Questions 1-9): 30 minutes
+- Practical Task (Question 10): 25 minutes
+- Review and Submission: 5 minutes
+
+Instructions
+============
+1. Read all questions carefully before starting
+2. Write your answers clearly in the spaces provided
+3. For the practical task, refer to the reference image provided
+4. Submission Process:
+   - Create a new GitHub repository named 'take-2-review-2'
+   - Upload your completed files:
+     * This completed answer sheet (PDF or image)
+     * Your index.html file
+     * Your CSS file (if separate from HTML)
+   - Copy your repository URL
+   - Submit the URL to your instructor via [specified method]
+
+===========================================================================
+
+Section 1: HTML & CSS Theory
+=============================
+Total marks available: 13 points
+
+1. HTML Tags (2 points)
+-----------------------
+List two different HTML tags that you know:
+
+Answer:
+- Tag 1: <h1></h1>
+- Tag 2: <p></p>
+
+2. HTML Element Creation (2 points)
+-----------------------------------
+Write a complete HTML element using one of the tags from Question 1. Include opening and closing tags with some content.
+
+Example format: <tagname>content goes here</tagname>
+
+Answer:<h1>This will be a Heading</h1>
+
+
+
+
+3. Adding Class Attribute (2 points)
+------------------------------------
+Rewrite your HTML element from Question 2, but add a class attribute with the value "button".
+
+Answer:<h1 class="button">This will be a Heading</h1>
+
+
+
+
+4. Semantic HTML (3 points)
+---------------------------
+a) In your own words, explain what semantic HTML means (2 points):
+
+Answer:Semantic HTML means the way that the browser is structured, making it easy for both screen readers and developers.
+
+
+
+
+b) Give one example of a semantic HTML tag and explain its purpose (1 point):
+
+Answer:<nav> Nav is for navigation. This is to allow the user or developer to quickly shut through a webpage to get to specific pieces of information. Eg Navigate to bottom of page to the "About Us" section of a webpage
+
+
+
+
+5. CSS Selectors - Elements (1 point)
+-------------------------------------
+Write a CSS selector to target all div elements:
+
+Answer:div{}
+
+
+
+
+6. CSS Selectors - ID (1 point)
+-------------------------------
+Write a CSS selector to target an element with id="card":
+
+Answer:#card {}
+
+
+
+
+7. CSS Selectors - Class (1 point)
+----------------------------------
+Write a CSS selector to target all elements with class="center":
+
+Answer:.center {}
+
+
+
+
+8. CSS Selector Analysis (2 points)
+-----------------------------------
+What does this CSS selector target: div > h1 { }?
+
+Answer:this selector will select all the H1 (child) elements that are direct link to parent being the div
+
+
+
+
+9. CSS Rule Writing (1 point)
+-----------------------------
+Write a complete CSS rule to make all h1 elements green:
+
+Answer:h1 {
+color: green;
+}
+
+
+
+
+
+
+===========================================================================
+
+Section 2: Practical Implementation
+===================================
+Total marks available: 12 points
+
+10. Card Component Creation
+---------------------------
+Using the reference design provided, create a webpage that matches the layout exactly.
+
+Task Requirements:
+==================
+File Setup:
+- Create a file named index.html
+- You may write CSS inside <style> tags or in a separate CSS file
+
+HTML Structure Required:
+Your page must include:
+- [ ] A container/card element
+- [ ] The Take2 logo (you can use text "TAKE2" with red background)
+- [ ] The text "Learning by doing"
+- [ ] A link with text "Let's go" that goes to https://take2.org
+
+Design Specifications:
+======================
+
+Layout & Structure (3 points)
+- Page content should be centered on screen
+- All elements contained in a card layout
+- Elements stacked vertically within the card
+
+Colors (3 points)
+- Page background: #141414 (dark grey)
+- Card background: #1F1F1F (lighter grey)  
+- Logo background: red
+- Text color: white (or appropriate contrast)
+
+Sizing & Spacing (3 points)
+- Card width: 250px
+- Logo width: 100px
+- Use 16px for consistent margins and padding
+- Card border radius: 16px
+
+Typography & Links (3 points)
+- Font family: "Open Sans", "Helvetica Neue", sans-serif
+- Text should be centered
+- "Let's go" must be a working link to https://take2.org
+- "Let's go" should be underlined
+
+Starter Code:
+=============
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #141414;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: "Open Sans", "Helvetica Neue", sans-serif;
+        }
+        
+        /* Add your CSS here */
+        
+    </style>
+</head>
+<body>
+    
+    <!-- Add your HTML here -->
+    
+</body>
+</html>
+
+Self-Check Before Submission:
+=============================
+- [ ] My page looks like the reference image
+- [ ] The link works when clicked
+- [ ] All colors match the specifications
+- [ ] Spacing and sizing look correct
+- [ ] My code is properly indented and readable
